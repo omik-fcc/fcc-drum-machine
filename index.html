@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <!-- Google Gont: Varela Round  -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <!-- Bulma CSS Framework -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css" integrity="sha256-dMQYvN6BU9M4mHK94P22cZ4dPGTSGOVP41yVXvXatws="
+    crossorigin="anonymous" />
+  <!-- Own Madness -->
+  <script src="assets/js/magic.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/mod.css">
+  <title>FCC Drum Machine</title>
+</head>
+
+<body>
+
+  <div class="hero is-danger">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">FCC Drum Machine</h1>
+        <p class="subtitle">Make some noise!</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="drum-machine" class="section">
+    <div class="container has-text-centered">
+
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+
+          <a id="q-wrap" class="button is-large is-warning drum-pad">
+            <span>Q</span>
+            <audio id="Q" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3">
+            </audio>
+          </a>
+          <a id="w-wrap" class="button is-large is-warning drum-pad">
+            <span>W</span>
+            <audio id="W" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3">
+            </audio>
+          </a>
+          <a id="e-wrap" class="button is-large is-warning drum-pad">
+            <span>E</span>
+            <audio id="E" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3">
+            </audio>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+
+          <a id="a-wrap" class="button is-large is-danger drum-pad">
+            <span>A</span>
+            <audio id="A" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3">
+            </audio>
+          </a>
+          <a id="s-wrap" class="button is-large is-danger drum-pad">
+            <span>S</span>
+            <audio id="S" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Chord_2.mp3">
+            </audio>
+          </a>
+          <a id="d-wrap" class="button is-large is-danger drum-pad">
+            <span>D</span>
+            <audio id="D" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Chord_3.mp3">
+            </audio>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+
+          <a id="z-wrap" class="button is-large is-link drum-pad">
+            <span>Z</span>
+            <audio id="Z" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/punchy_kick_1.mp3">
+            </audio>
+          </a>
+          <a id="x-wrap" class="button is-large is-link drum-pad">
+            <span>X</span>
+            <audio id="X" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3">
+            </audio>
+          </a>
+          <a id="c-wrap" class="button is-large is-link drum-pad">
+            <span>C</span>
+            <audio id="C" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3">
+            </audio>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <a id="display" class="button is-success is-large is-fullwidth is-inverted">DISPLAY</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="section my-footer">
+    <div class="container has-text-centered">
+      <p>
+        <p>Proudly using <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>,
+          <a href="http://bulma.io" target="_blank">Bulma CSS</a> and a pinch of
+          <a href="https://www.jquery.com" target="_blank">jQuery</a>.<br>
+          <a href="https://omik.github.io" target="_blank">omik.github.io</a>
+        </p>
+    </div>
+  </footer>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.hero.is-danger {
+  background: linear-gradient(to top right,
+    rgba(31, 31, 31, 0.5),
+    rgba(92, 92, 92, 0.2)), url('../images/pexels-photo-164745.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#Q, #W, #E, #A, #S, #D, #Z, #X, #C {
+  display:none;
+}
+
+.button {
+  min-width: 4rem;
+}
+
+.my-footer {
+  background-color: rgb(240, 240, 240);
+}
+
+.drum-pad
+{
+margin-left: 1rem;
+}
